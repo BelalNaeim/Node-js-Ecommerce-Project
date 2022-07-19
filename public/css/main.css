@@ -67,7 +67,7 @@ a#scrollUp {
   bottom: 0;
   right: 10px;
   padding: 5px 10px;
-  background: #13d177;
+  background: #db5afc;
   color: #fff;
   -webkit-animation: bounce 2s ease infinite;
   animation: bounce 2s ease infinite;
@@ -175,14 +175,14 @@ a#scrollUp i {
 }
 
 .usa:hover {
-  background: #13d177;
+  background: #db5afc;
   color: #fff;
-  border-color: #13d177;
+  border-color: #db5afc;
 }
 
 .usa:active,
 .usa.active {
-  background: none repeat scroll 0 0 #13d177;
+  background: none repeat scroll 0 0 #db5afc;
   box-shadow: inherit;
   outline: 0 none;
 }
@@ -194,7 +194,7 @@ a#scrollUp i {
 
 .dropdown-menu li a:hover,
 .dropdown-menu li a:focus {
-  background-color: #13d177;
+  background-color: #db5afc;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
@@ -410,7 +410,7 @@ ul.sub-menu {
   top: 0;
   width: 100%;
   height: 61px;
-  background: #13d177;
+  background: #db5afc;
   border-radius: 3px;
   color: #fff;
   font-size: 20px;
@@ -545,7 +545,7 @@ ul.sub-menu {
 
 .single-widget ul li a:hover {
   background: none;
-  color: #13d177;
+  color: #db5afc;
 }
 
 .single-widget .fa-facebook {
@@ -573,7 +573,7 @@ ul.sub-menu {
 }
 
 .searchform button {
-  background: #13d177;
+  background: #db5afc;
   border: medium none;
   border-radius: 0;
   margin-left: -5px;
@@ -588,7 +588,7 @@ ul.sub-menu {
 
 .searchform button:hover,
 .searchform button:focus {
-  background-color: #13d177;
+  background-color: #db5afc;
 }
 
 .searchform p {
@@ -630,7 +630,7 @@ ul.sub-menu {
 }
 
 .carousel-indicators li.active {
-  background: #13d177;
+  background: #db5afc;
 }
 
 .item {
@@ -655,7 +655,7 @@ ul.sub-menu {
 }
 
 .item h1 span {
-  color: #13d177;
+  color: #db5afc;
 }
 
 .item h2 {
@@ -675,7 +675,7 @@ ul.sub-menu {
 }
 
 .get {
-  background: #13d177;
+  background: #db5afc;
   border: 0 none;
   border-radius: 0;
   color: #ffffff;
@@ -686,7 +686,7 @@ ul.sub-menu {
 }
 
 .item button:hover {
-  background: #13d177;
+  background: #db5afc;
 }
 
 .control-carousel {
@@ -697,7 +697,7 @@ ul.sub-menu {
 }
 
 .control-carousel:hover {
-  color: #13d177;
+  color: #db5afc;
 }
 
 .right {
@@ -857,7 +857,7 @@ h2.title:after */ {
 }
 
 .tooltip-inner {
-  background-color: #13d177;
+  background-color: #db5afc;
   border-radius: 4px;
   color: #ffffff;
   max-width: 200px;
@@ -867,7 +867,7 @@ h2.title:after */ {
 }
 
 .tooltip.top .tooltip-arrow {
-  border-top-color: #13d177;
+  border-top-color: #db5afc;
   border-width: 5px 5px 0;
   bottom: 0;
   left: 50%;
@@ -977,7 +977,7 @@ h2.title {
   background: #fff;
   border: 0 none;
   border-radius: 0;
-  color: #13d177;
+  color: #db5afc;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   margin-bottom: 25px;
@@ -985,7 +985,7 @@ h2.title {
 
 .product-overlay .add-to-cart:hover {
   background: #fff;
-  color: #13d177;
+  color: #db5afc;
 }
 
 .product-overlay p {
@@ -1003,7 +1003,7 @@ h2.title {
 }
 
 .add-to-cart:hover {
-  background: #13d177;
+  background: #db5afc;
   color: #ffffff;
 }
 
@@ -1025,7 +1025,7 @@ h2.title {
 
 .choose ul li a:hover {
   background: none;
-  color: #13d177;
+  color: #db5afc;
 }
 
 .category-tab {
@@ -1034,7 +1034,7 @@ h2.title {
 
 .category-tab ul {
   background: #40403e;
-  border-bottom: 1px solid #13d177;
+  border-bottom: 1px solid #db5afc;
   list-style: none outside none;
   margin: 0 0 30px;
   padding: 0;
@@ -1052,7 +1052,7 @@ h2.title {
 }
 
 .category-tab ul li a:hover {
-  background: #13d177;
+  background: #db5afc;
   color: #fff;
 }
 
@@ -1063,7 +1063,7 @@ h2.title {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  background-color: #13d177;
+  background-color: #db5afc;
   border: 0;
   color: #ffffff;
   cursor: default;
@@ -1092,7 +1092,7 @@ h2.title {
 }
 
 .recommended-item-control i {
-  background: none repeat scroll 0 0 #13d177;
+  background: none repeat scroll 0 0 #db5afc;
   color: #ffffff;
   font-size: 20px;
   padding: 4px 10px;
@@ -1166,8 +1166,8 @@ h2.title {
 .pagination .active span:hover,
 .pagination .active a:focus,
 .pagination .active span:focus {
-  background-color: #13d177;
-  border-color: #13d177;
+  background-color: #db5afc;
+  border-color: #db5afc;
   color: #ffffff;
   cursor: default;
   z-index: 2;
@@ -1188,7 +1188,7 @@ h2.title {
 }
 
 .pagination li a:hover {
-  background: #13d177;
+  background: #db5afc;
   color: #fff;
 }
 
@@ -1226,7 +1226,7 @@ h2.title {
 }
 
 .view-product h3 {
-  background: #13d177;
+  background: #db5afc;
   bottom: 0;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -1253,7 +1253,7 @@ h2.title {
 }
 
 .item-control i {
-  background: #13d177;
+  background: #db5afc;
   color: #ffffff;
   font-size: 20px;
   padding: 5px 10px;
@@ -1331,7 +1331,7 @@ h2.title {
 }
 
 .cart {
-  background: #13d177;
+  background: #db5afc;
   border: 0 none;
   border-radius: 0;
   color: #ffffff;
@@ -1375,13 +1375,13 @@ h2.title {
 }
 
 #reviews ul li a i {
-  color: #13d177;
+  color: #db5afc;
   padding-right: 8px;
 }
 
 #reviews ul li a:hover {
   background: #fff;
-  color: #13d177;
+  color: #db5afc;
 }
 
 #reviews p {
@@ -1422,7 +1422,7 @@ h2.title {
 }
 
 #reviews button {
-  background: #13d177;
+  background: #db5afc;
   border: 0 none;
   border-radius: 0;
   color: #ffffff;
@@ -1460,7 +1460,7 @@ h2.title {
 }
 
 .content-404 h2 a {
-  background: #13d177;
+  background: #db5afc;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 44px;
@@ -1525,7 +1525,7 @@ h2.title {
 
 .login-form form button,
 .signup-form form button {
-  background: #13d177;
+  background: #db5afc;
   border: medium none;
   border-radius: 0;
   color: #ffffff;
@@ -1547,7 +1547,7 @@ h2.title {
 }
 
 .or {
-  background: #13d177;
+  background: #db5afc;
   border-radius: 40px;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -1578,7 +1578,7 @@ h2.title {
 }
 
 .breadcrumbs .breadcrumb li a {
-  background: #13d177;
+  background: #db5afc;
   color: #ffffff;
   padding: 3px 7px;
 }
@@ -1589,7 +1589,7 @@ h2.title {
   width: auto;
   border-width: 8px;
   border-style: solid;
-  border-color: transparent transparent transparent #13d177;
+  border-color: transparent transparent transparent #db5afc;
   position: absolute;
   top: 11px;
   left: 70px;
@@ -1605,7 +1605,7 @@ h2.title {
 }
 
 #cart_items .cart_info .cart_menu {
-  background: #13d177;
+  background: #db5afc;
   color: #fff;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
@@ -1698,7 +1698,7 @@ h2.title {
 }
 
 .cart_delete a:hover {
-  background: #13d177;
+  background: #db5afc;
 }
 
 .bg h2.title {
@@ -1798,7 +1798,7 @@ input {
   border-radius: 3px;
 }
 input:hover {
-  border: solid 1px #13d177;
+  border: solid 1px #db5afc;
 }
 
 .user_info select:focus {
@@ -1811,7 +1811,7 @@ input:hover {
 
 .update,
 .check_out {
-  background: #13d177;
+  background: #db5afc;
   border-radius: 0;
   color: #ffffff;
   border: none;
@@ -1873,7 +1873,7 @@ input:hover {
 }
 
 .checkout-options .nav li a {
-  color: #13d177;
+  color: #db5afc;
   font-size: 18px;
   font-weight: normal;
   padding: 0;
@@ -1887,7 +1887,7 @@ input:hover {
   margin-right: 10px;
   border-radius: 50%;
   padding: 5px;
-  background: #13d177;
+  background: #db5afc;
   color: #fff;
   font-size: 14px;
   padding: 2px 3px;
@@ -1913,7 +1913,7 @@ input:hover {
 }
 
 .shopper-info .btn-primary {
-  background: #13d177;
+  background: #db5afc;
   border: 0 none;
   border-radius: 3px;
   margin-right: 15px;
@@ -2056,7 +2056,7 @@ input:hover {
 }
 
 .blog-post-area .post-meta ul li i {
-  background: #13d177;
+  background: #db5afc;
   color: #ffffff;
   margin-left: -4px;
   margin-right: 7px;
@@ -2069,7 +2069,7 @@ input:hover {
   position: absolute;
   width: auto;
   height: auto;
-  border-color: transparent transparent transparent #13d177;
+  border-color: transparent transparent transparent #db5afc;
   border-width: 4px;
   border-style: solid;
   top: 6px;
@@ -2078,7 +2078,7 @@ input:hover {
 
 .blog-post-area .post-meta ul span {
   float: right;
-  color: #13d177;
+  color: #db5afc;
 }
 
 .post-meta span {
@@ -2086,11 +2086,11 @@ input:hover {
 }
 
 .post-meta span i {
-  color: #13d177;
+  color: #db5afc;
 }
 
 .blog-post-area .single-blog-post .btn-primary {
-  background: #13d177;
+  background: #db5afc;
   border: medium none;
   border-radius: 3px;
   color: #ffffff;
@@ -2113,7 +2113,7 @@ input:hover {
 
 .pagination-area .pagination li a:hover,
 .pagination-area .pagination li .active {
-  background: #13d177;
+  background: #db5afc;
   color: #fff;
 }
 
@@ -2138,7 +2138,7 @@ input:hover {
 }
 
 .pager-area .pager li a:hover {
-  background: #13d177;
+  background: #db5afc;
   color: #fff;
 }
 
@@ -2172,7 +2172,7 @@ input:hover {
 
 .rating-area .ratings .color,
 .rating-area .color {
-  color: #13d177;
+  color: #db5afc;
 }
 
 .rating-area .tag {
@@ -2256,12 +2256,12 @@ input:hover {
 
 .blog-socials ul li a:hover {
   color: #fff;
-  background: #13d177;
+  background: #db5afc;
 }
 
 .media-list .btn-primary,
 .commnets .btn-primary {
-  background: #13d177;
+  background: #db5afc;
   border: 0 none;
   border-radius: 0;
   color: #ffffff;
@@ -2316,7 +2316,7 @@ input:hover {
 }
 
 .sinlge-post-meta li i {
-  background: #13d177;
+  background: #db5afc;
   color: #ffffff;
   margin-right: 10px;
   padding: 8px 10px;
@@ -2342,7 +2342,7 @@ input:hover {
 }
 
 .replay-box label {
-  background: #13d177;
+  background: #db5afc;
   color: #ffffff;
   margin-bottom: 15px;
   padding: 3px 15px;
@@ -2351,7 +2351,7 @@ input:hover {
 }
 
 .replay-box span {
-  color: #13d177;
+  color: #db5afc;
   float: right;
   font-weight: 700;
   margin-top: 21px;
@@ -2368,7 +2368,7 @@ input:hover {
 
 .replay-box form input:hover,
 .text-area textarea:hover {
-  border: 1px solid #13d177;
+  border: 1px solid #db5afc;
 }
 
 .text-area {
@@ -2388,7 +2388,7 @@ input:hover {
 }
 
 .dev-btn {
-  background: #13d177;
+  background: #db5afc;
   color: #fff;
   border: 0 none;
   border-radius: 3px;
@@ -2408,7 +2408,7 @@ input:hover {
   margin-left: 20px;
 }
 .btn.btn-primary {
-  background: #13d177;
+  background: #db5afc;
   border: 0 none;
   border-radius: 3px;
   margin-top: 16px;
@@ -2426,7 +2426,7 @@ input:hover {
   height: auto;
   border-style: solid;
   border-width: 8px;
-  border-color: #13d177 transparent transparent transparent;
+  border-color: #db5afc transparent transparent transparent;
   top: 25px;
   left: 5px;
 }
@@ -2479,7 +2479,7 @@ input:hover {
 #contact-page .form-control:focus,
 #contact-page .form-control:hover {
   box-shadow: inherit;
-  border-color: #13d177;
+  border-color: #db5afc;
 }
 
 #contact-page .contact-info {
@@ -2530,5 +2530,5 @@ input:hover {
 }
 
 .contact-info .social-networks ul li a:hover {
-  color: #13d177;
+  color: #db5afc;
 }
