@@ -9,7 +9,7 @@ block content
                     .product-details
                         //product-image
                         .col-sm-5
-                            .view-product
+                            .view-product.shadow
                                 img(src='/img/products/' + product.Image, alt=product.ProductName)
                         ///product-image
 
@@ -17,7 +17,7 @@ block content
                         .col-sm-7
                             .product-information
                                 //img.newarrival(src='/img/product-details/new.jpg', alt='')
-                                h2= product.ProductName
+                                h1= product.ProductName
 
                                 p= product.ProductDescription
 
@@ -41,7 +41,7 @@ block content
                                         label Quantity:
                                             input(type='text', name='quantity', value='1')
                                         br
-                                        button.btn.btn-default.add-to-cart(type='submit')
+                                        button.btn.btn-success.p-3(type='submit')
                                             i.fa.fa-shopping-cart
                                             | Add to cart
 

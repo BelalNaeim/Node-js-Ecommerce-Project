@@ -4,13 +4,13 @@ block details
     .table-responsive
         table.table.table-condensed
             thead
-                tr
+                tr.bg-secondary.text-white
                     td #
                     td Fullname
                     td Email
                     td Username
                     td Admin
-                    td
+                    td Option
             tbody
                 each customer in customers
                     tr
@@ -30,16 +30,17 @@ block details
                         td
                             if customer.Admin == 0
                                 form.dev-form(action='/admin/customers/' + customer.UserID + '/makeAdmin', method='POST')
-                                    button.cus-btn.btn.btn-default(type='submit')
+                                    button.cus-btn.btn-success(type='submit')
                                         i.fa.fa-unlock
                                         = ' Make Admin'
                             else
                                 form.dev-form(action='/admin/customers/' + customer.UserID + '/removeAdmin', method='POST')
-                                    button.cus-btn.btn.btn-default(type='submit')
+                                    button.cus-btn.btn-info(type='submit')
                                         i.fa.fa-lock
                                         = ' Remove Admin'
-                        td
                             form.dev-form(action='/admin/customers/' + customer.UserID + '/delete', method='POST')
-                                button.cus-btn.btn.btn-default(type='submit')
+                                button.cus-btn.btn-danger(type='submit')
                                     i.fa.fa-trash-o
                                     = ' Delete'
+                        
+                            

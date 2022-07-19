@@ -6,7 +6,7 @@ block content
             .row
                 .col-sm-3
                     // nav-bar
-                    .left-sidebar
+                    .left-sidebar.shadow
                         #accordian.panel-group.category-products
                             .panel.panel-default
                                 .panel-heading
@@ -22,22 +22,22 @@ block content
                 // category_products
                 .col-sm-9
                     .features_items
-                        h2.title.text-center
+                        h2.title
                             = title
                         if products
                             each product in products
                                 - var productUrl = '/cat/' + product.CategorySlug + '/' + product.ProductSlug;
-                                .col-sm-3
-                                    .product-image-wrapper
+                                .col-sm-4
+                                    .product-image-wrapper.shadow.p-4
                                         .single-products
                                             .productinfo.text-center
+                                                p
+                                                    a.text-danger(href=productUrl)=product.ProductName
                                                 a(href=productUrl)
                                                     img(src='/img/products/' + product.Image, alt=product.ProductName)
-                                                p
-                                                    a(href=productUrl)=product.ProductName
                                                 h2=  product.ProductPrice +' EGP ' 
                                                 form(action='/cart/' + product.ProductID + '/add', method='POST')
-                                                    button.btn.btn-default.add-to-cart(type='submit')
+                                                    button.btn.btn-danger(type='submit')
                                                         i.fa.fa-shopping-cart
                                                         | Add to cart
             ///category_products
