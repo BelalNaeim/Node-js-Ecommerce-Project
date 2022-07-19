@@ -19,7 +19,7 @@ block content
                                                     img(src='/img/products/' + product.Image, alt=product.ProductName)
                                                 h2= 'Price : ' + product.ProductPrice + ' EGP '
                                                 form(action='/cart/' + product.ProductID + '/add', method='POST')
-                                                    button.btn.btn-success.add-to-cart(type='submit')
+                                                    button.btn.btn-danger.add-to-cart(type='submit')
                                                         i.fa.fa-shopping-cart.fa-lg.p-3
                                                         |Add to cart
                     ///features_items
