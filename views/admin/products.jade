@@ -28,11 +28,11 @@ block details
                                 = ' ' + product.ManufactureYear
                             p
                                 b Brand:
-                                |  aStore
+                                |  Story
 
                             p
                                 b Price:
-                                = ' ₱' + product.ProductPrice
+                                =  product.ProductPrice + ' EGP' 
 
                             - var feature = 'Yes'
                             if (product.Feature == 0)
