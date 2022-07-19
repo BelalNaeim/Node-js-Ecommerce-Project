@@ -35,7 +35,7 @@ block content
                                                     img(src='/img/products/' + product.Image, alt=product.ProductName)
                                                 p
                                                     a(href=productUrl)=product.ProductName
-                                                h2= ' ₱' + product.ProductPrice
+                                                h2=  product.ProductPrice +' EGP ' 
                                                 form(action='/cart/' + product.ProductID + '/add', method='POST')
                                                     button.btn.btn-default.add-to-cart(type='submit')
                                                         i.fa.fa-shopping-cart

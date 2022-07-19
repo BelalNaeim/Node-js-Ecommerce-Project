@@ -4,20 +4,6 @@ block content
     section
         .container
             .row
-                //.col-sm-3
-                //    .left-sidebar
-                //        h2 Categories
-                //        //category-products
-                //        #accordian.panel-group.category-products
-                //            if categories
-                //                each category in categories
-                //                    .panel.panel-default
-                //                        .panel-heading
-                //                            h4.panel-title
-                //                                a(href=category.SlugLink)= category.CategoryName
-                //        ///category-products
-
-                //.col-sm-9.padding-right
                 if product
                     // product-details
                     .product-details
@@ -47,10 +33,10 @@ block content
                                     = ' ' + product.ManufactureYear
                                 p
                                     b Brand:
-                                    |  aStore
+                                    |  Story
 
                                 span
-                                    span= ' ₱' + product.ProductPrice
+                                    span=  product.ProductPrice + ' EGP ' 
                                     form(action='/cart/' + product.ProductID + '/add', method='POST')
                                         label Quantity:
                                             input(type='text', name='quantity', value='1')

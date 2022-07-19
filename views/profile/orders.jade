@@ -18,7 +18,7 @@ block details
                         td= order.OrderID
                         td= order.OrderDate
                         td= order.Status
-                        td= ' ₱' + order.Total
+                        td=  order.Total +' EGP' 
                         td
                             form(action='/usr/' + customer.Username + '/orders/' + order.OrderID, method='GET')
                                 button.btn.btn-default.order-btn(type='submit')
