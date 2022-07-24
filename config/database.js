@@ -5,9 +5,10 @@ var config = {
   user: "root",
   password: "",
   database: "aStore",
+  // port:3309
 };
 
-// database
+// init database
 var pool = mysql.createPool(config);
 
 //Fetch data
